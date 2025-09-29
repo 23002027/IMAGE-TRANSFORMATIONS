@@ -31,6 +31,8 @@ Display the transformed images using Matplotlib for visualization. Convert the B
 ### Step5:
 Save or display the final transformed images for analysis and use plt.show() to display them inline in Jupyter or compatible environments.
 
+## DEVELOPED BY : KAMESH R R
+## REG NO : 212223230095
 ## Program:
 
 ```python
@@ -50,7 +52,6 @@ def display_image(image, title):
 # Load an image
 image = cv2.imread('tree.jpg')
 display_image(image, 'Original Image')
-
 
 # i) Image Translation
 def translate(img, x, y):
